@@ -2,6 +2,7 @@
 #define WIDGET_H
 
 #include <QWidget>
+#include "TestValidator.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Widget; }
