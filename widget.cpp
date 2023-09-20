@@ -1,6 +1,6 @@
 #include "widget.h"
 #include "ui_widget.h"
-#include "TestValidator.h"
+#include "QTestValidator.h"
 #include <QString>
 
 
@@ -20,10 +20,8 @@ Widget::~Widget()
 }
 
 
-
-
-void Widget::on_lineEdit_editingFinished()
+void Widget::on_TestVal_1_editingFinished()
 {
-   //double angle =ui->lineEdit->text().toDouble();
+     //double angle =ui->lineEdit->text().toDouble();
 }
 

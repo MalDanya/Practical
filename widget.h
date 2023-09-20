@@ -2,7 +2,7 @@
 #define WIDGET_H
 
 #include <QWidget>
-#include "TestValidator.h"
+#include "QTestValidator.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Widget; }
@@ -20,6 +20,10 @@ private slots:
     void on_lineEdit_textEdited(const QString &arg1);
 
     void on_lineEdit_editingFinished();
+
+    void on_TestVal_1_textEdited(const QString &arg1);
+
+    void on_TestVal_1_editingFinished();
 
 private:
     Ui::Widget *ui;

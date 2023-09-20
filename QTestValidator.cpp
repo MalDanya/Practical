@@ -8,7 +8,7 @@ namespace  {
 QTestValidator::QTestValidator(QLineEdit *parent)
     : QLineEdit {parent}
 {
-    connect(this,SIGNAL(changeValue()),this,SLOT(update()));
+    connect(this,SIGNAL(changeAngle()),this,SLOT(update()));
 }
 
 void QTestValidator::TestVal()
